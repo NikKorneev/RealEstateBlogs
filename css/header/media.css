@@ -1,0 +1,29 @@
+
+@media (max-width: 2400px){
+    :root{
+        --container-width: 1810px;
+        --container-padding: 350px;
+    }
+}
+@media (max-width: 1800px) {
+    :root{
+        --container-width: 1410px;
+        --container-padding: 200px;
+    }
+    .nav ul{
+        gap: 30px;
+        font-size: 20px;
+    }
+
+    .header__title{
+        font-size: 77px;
+    }
+    .header__titleWrapper{
+        height: 340px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header__phone{
+        font-size: 13px;
+    }
+}

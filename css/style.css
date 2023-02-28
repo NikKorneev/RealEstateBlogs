@@ -1,0 +1,28 @@
+@import 'font.css';
+@import 'header/header.css';
+@import 'header/media.css';
+@import 'footer/footer.css';
+
+
+
+*{
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+body{
+    background-color: #272727;
+}
+.container{
+    width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+}
+
+.containerFullWidth{
+    width: var(--container-width);
+    margin: 0 auto;
+}
