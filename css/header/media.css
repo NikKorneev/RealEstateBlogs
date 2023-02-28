@@ -27,3 +27,15 @@
         font-size: 13px;
     }
 }
+@media (max-width: 1440px){
+        :root{
+        --container-width: 1150px;
+        --container-padding: 100px;
+    }
+    .header__phone{
+        display: none;
+    }
+    .nav ul{
+        margin-left: 50px;
+    }
+}
